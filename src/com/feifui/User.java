@@ -9,10 +9,10 @@ package com.feifui;
 public class User {
 	
 	//封装卡号、用户名、密码、余额
-	private String workcard = "1111";
-	private String name = "李小龙";
-	private String password = "0000";
-	private double balance = 1000.00;
+	private String workcard;
+	private String name;
+	private String password;
+	private double balance;
 	
 	
 	public String getWorkcard() {

@@ -51,7 +51,7 @@ public class NotarizeBusniess {
 			tb.trabsferMoney();
 		}else if (input.equals("3")) {
 			//退卡
-			ExitBusniess eb = new ExitBusniess();
+			ExitBusniess eb = new ExitBusniess(user);
 			eb.exit();
 		}
 		

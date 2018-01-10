@@ -40,7 +40,7 @@ public class MenuBusniess {
 			DepositBusniess dbs = new DepositBusniess(user);
 			dbs.depositMoney();
 		}else if(choice.equals("5")) {
-			ExitBusniess eb = new ExitBusniess();
+			ExitBusniess eb = new ExitBusniess(user);
 			eb.exit();
 
 		}

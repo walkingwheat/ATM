@@ -20,6 +20,10 @@ public class DepositBusniess {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("请输入存款金额");
+//		System.out.println("1.返回菜单界面");
+//		if() {
+//			
+//		}
 		String deposutmoney = scanner.next();
 		
 		Double dou = new Double(deposutmoney);

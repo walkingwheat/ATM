@@ -25,7 +25,10 @@ public class QueryBusniess {
 //		double balance = user.getBalance();
 		//double res = db.drawMoney(resulet);
 		//user.getBalance();
+		System.out.println("你的卡号是：" + user.getWorkcard());
+		System.out.println("你的账户名是：" + user.getName());
 		System.out.println("你的账户余额是：" + user.getBalance());
+		
 		
 		System.out.println("1.返回上一级");
 		Scanner scanner = new Scanner(System.in);

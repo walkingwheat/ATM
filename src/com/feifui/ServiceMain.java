@@ -8,7 +8,7 @@ public class ServiceMain {
 		
 		User user = new User();
 		
-		LogonBusniess lb = new LogonBusniess();
+		LogonBusniess lb = new LogonBusniess(user);
 		lb.logon();
 		
 		MenuBusniess mb = new MenuBusniess(user);
