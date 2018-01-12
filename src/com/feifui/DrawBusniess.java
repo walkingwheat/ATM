@@ -19,7 +19,7 @@ public class DrawBusniess {
 	public double drawMoney() {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("请输入取款金额");
+		System.out.println("***请输入取款金额***");
 		String drawmoney = scanner.next();
 		
 		//得到默认的余额
